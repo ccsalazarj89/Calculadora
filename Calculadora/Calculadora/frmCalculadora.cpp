@@ -1,8 +1,8 @@
-#include "frmCalculadora.h"
+#include "frmCalculadora.h" 
+
+//Necesario para agregar la interfaz grafica al codigo.
 
 using namespace System;
-
-extern "C" int procSuma(int var1, int var2);
 
 using namespace System ::Windows::Forms;
 [STAThread]

@@ -173,6 +173,10 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <MASM Include="procDivision.asm" />
+    <MASM Include="procMultiplicacion.asm" />
+    <MASM Include="procRaiz.asm" />
+    <MASM Include="procResta.asm" />
     <MASM Include="procSuma.asm" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

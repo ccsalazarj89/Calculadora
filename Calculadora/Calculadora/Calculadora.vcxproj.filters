@@ -28,5 +28,22 @@
     <MASM Include="procSuma.asm">
       <Filter>Archivos de código fuente</Filter>
     </MASM>
+    <MASM Include="procDivision.asm">
+      <Filter>Archivos de código fuente</Filter>
+    </MASM>
+    <MASM Include="procMultiplicacion.asm">
+      <Filter>Archivos de código fuente</Filter>
+    </MASM>
+    <MASM Include="procResta.asm">
+      <Filter>Archivos de código fuente</Filter>
+    </MASM>
+    <MASM Include="procRaiz.asm">
+      <Filter>Archivos de código fuente</Filter>
+    </MASM>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmCalculadora.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>

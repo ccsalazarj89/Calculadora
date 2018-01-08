@@ -1,9 +1,8 @@
-.data
 
-.code
-		procSuma proc
-			ADD RCX, RDX
-			MOV RAX, RCX
-			RET
-		procSuma endp
- end
+
+ .code
+	procSuma proc
+		addsd	xmm0, xmm1			;Calcula la suma
+		RET							;Retorna
+	procSuma endp
+end
